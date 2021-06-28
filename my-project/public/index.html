@@ -18,4 +18,28 @@
   <body>
     <div id="root"></div>
   </body>
+  <script>
+    const onea=document.querySelector('#onea');
+    const oneb=document.querySelector('#oneb');
+    const twoa=document.querySelector('#twoa');
+    const twob=document.querySelector('#twob');
+
+    onea.addEventListener('click', ()=>{
+        if(oneb.classList.contains('hidden')){
+            oneb.classList.remove('hidden');
+        }
+        else{
+            oneb.classList.add('hidden');
+        }
+    })
+    twoa.addEventListener('click', ()=>{
+        if(twob.classList.contains('hidden')){
+            twob.classList.remove('hidden');
+        }
+        else{
+            twob.classList.add('hidden');
+        }
+    })
+
+</script>
 </html>
