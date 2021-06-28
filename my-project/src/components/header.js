@@ -30,7 +30,7 @@ function Header() {
             </svg>
         </a>
     </header>
-    <div className="w-full bg-gren text-white font-bold py-2 pl-20">STARBUCKS® REWARD</div>
+    <div className="sticky top-0 w-full bg-gren text-white font-bold py-2 pl-20">STARBUCKS® REWARD</div>
     </>
   );
 }

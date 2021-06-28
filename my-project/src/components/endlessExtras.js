@@ -1,4 +1,6 @@
 import React from "react";
+import EndlessExtrasHelper from "./subComponents/endlessExtrasHelper";
+
 
 function EndlessExtras() {
     return (
@@ -10,30 +12,15 @@ function EndlessExtras() {
             </div>
         </div>
         <div className=" md:flex px-8 md:justify-between">
-            <div className="flex md:grid md:justify-items-center p-4">
-                <img className="w-28 h-28 mb-2" src="https://s1.im.ge/2021/06/28/rgmLF.webp" alt=""></img>
-                <div className="md:grid md:justify-items-center ml-3">
-                    <h3 className="text-lg font-semibold">Fun freebies</h3>
-                    <p className="text-sm mt-2 md:max-w-sm md:text-center md:font-medium">Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.</p>
-                    <a href="https://www.starbucks.com/rewards" className="text-sm mt-4 block text-green-700 underline md:text-base">Learn more</a>
-                </div>
-            </div>
-            <div className="flex md:grid md:justify-items-center p-4">
-                <img className="w-28 h-28 mb-2" src="https://s1.im.ge/2021/06/28/rgwxK.webp" alt=""></img>
-                <div className="md:grid md:justify-items-center ml-3">
-                    <h3 className="text-lg font-semibold">Order & pay ahead</h3>
-                    <p className="text-sm mt-2 md:max-w-sm md:text-center md:font-medium">Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.</p>
-                    <a href="https://www.starbucks.com/rewards" className="text-sm mt-4 block text-green-700 underline md:text-base">Learn more</a>
-                </div>
-            </div>
-            <div className="flex md:grid md:justify-items-center p-4">
-                <img className="w-28 h-28 mb-2" src="https://s1.im.ge/2021/06/28/rg6n9.webp" alt=""></img>
-                <div className="md:grid md:justify-items-center ml-3">
-                    <h3 className="text-lg font-semibold">Get to free faster</h3>
-                    <p className="text-sm mt-2 md:max-w-sm md:text-center md:font-medium">Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.</p>
-                    <a href="https://www.starbucks.com/rewards" className="text-sm mt-4 block text-green-700 underline md:text-base">Learn more</a>
-                </div>
-            </div>
+            <EndlessExtrasHelper hval="Fun freebies" imgLink="https://s1.im.ge/2021/06/28/rgmLF.webp">
+                Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.
+            </EndlessExtrasHelper>
+            <EndlessExtrasHelper hval="Order & pay ahead" imgLink="https://s1.im.ge/2021/06/28/rgwxK.webp">
+                Enjoy the convenience of in-store, curbside or drive-thru pickup at select stores.
+            </EndlessExtrasHelper>
+            <EndlessExtrasHelper hval="Get to free faster" imgLink="https://s1.im.ge/2021/06/28/rg6n9.webp">
+                Earn Stars even quicker with Bonus Star challenges, Double Star Days and exciting games.
+            </EndlessExtrasHelper>
         </div>
     </section>
 

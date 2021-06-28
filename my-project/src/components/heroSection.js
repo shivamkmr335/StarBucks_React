@@ -1,6 +1,6 @@
 import React from "react";
 
-function Component1() {
+function HeroSection() {
     return (
     <section  className="md:flex md:justify-between pl-6 bg-gradient-to-br from-green-300 to-white">
         <div className="grid justify-items-center md:w-full py-6 md:justify-items-start xl:px-40 xl:py-32 md:align-middle max-h-96 md:py-20">
@@ -19,4 +19,4 @@ function Component1() {
     );
   }
   
-  export default Component1;
+  export default HeroSection;
